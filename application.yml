@@ -1,0 +1,11 @@
+﻿spring:
+  profiles:
+    active: dev
+---spring:
+     profiles: dev
+     application:
+       name: dept-dev-environment
+---spring:
+     profiles: test
+     application:
+       name: dept-test-environment
